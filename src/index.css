@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950 text-white antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-xl bg-white/5 border border-white/10;
+  }
+  
+  .glass-strong {
+    @apply backdrop-blur-2xl bg-white/10 border border-white/20;
+  }
+  
+  .glass-light {
+    @apply backdrop-blur-md bg-white/5 border border-white/5;
+  }
+  
+  .glow {
+    box-shadow: 0 0 40px rgba(139, 92, 246, 0.3), 0 0 80px rgba(139, 92, 246, 0.1);
+  }
+  
+  .glow-purple {
+    box-shadow: 0 0 60px rgba(168, 85, 247, 0.4), 0 0 120px rgba(168, 85, 247, 0.2);
+  }
+  
+  .glow-cyan {
+    box-shadow: 0 0 60px rgba(6, 182, 212, 0.4), 0 0 120px rgba(6, 182, 212, 0.2);
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent;
+  }
+  
+  .gradient-text-gold {
+    @apply bg-gradient-to-r from-amber-200 via-yellow-300 to-amber-400 bg-clip-text text-transparent;
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-float-delayed {
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+  
+  .animate-float-slow {
+    animation: float 8s ease-in-out infinite;
+    animation-delay: 4s;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% { 
+      box-shadow: 0 0 20px rgba(139, 92, 246, 0.4), 0 0 40px rgba(139, 92, 246, 0.2);
+    }
+    50% { 
+      box-shadow: 0 0 40px rgba(139, 92, 246, 0.6), 0 0 80px rgba(139, 92, 246, 0.4);
+    }
+  }
+  
+  .animate-shimmer {
+    animation: shimmer 2s linear infinite;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.1),
+      transparent
+    );
+    background-size: 200% 100%;
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+  
+  .animate-spin-reverse {
+    animation: spin-reverse 10s linear infinite;
+  }
+  
+  @keyframes spin-reverse {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+  }
+  
+  .clip-polygon {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .clip-pulse {
+    animation: clip-pulse 2s ease-in-out infinite;
+  }
+  
+  @keyframes clip-pulse {
+    0%, 100% { clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
+    50% { clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%); }
+  }
+}
