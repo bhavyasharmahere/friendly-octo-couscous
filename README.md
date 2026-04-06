@@ -1,90 +1,30 @@
 # friendly-octo-couscous
-🧠 What is StreamSnap?
-StreamSnap is a high-performance, modern downloader web app designed for speed, simplicity, and a premium user experience.
+# ⚡ StreamSnap
+Simple • Fast • Powerful Downloader
+<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=500&lines=Paste+Link+→+Download;Fast+%E2%9A%A1;Minimal+UI" /> </p>
+🚀 What is this?
 
-Paste. Click. Download. Done.
+A modern downloader web app built for speed and simplicity.
 
-✨ Features That Hit Different
-⚡ Blazing Fast Processing
-🎯 One-click Download Workflow
-🧠 Smart URL Detection
-📱 Fully Responsive UI
-🎨 Insane Premium Design (Glassmorphism + Gradients)
-🔒 Client-side Optimised
-🎥 Live
+Paste link → Click → Download
 
-🧱 Tech Stack
-Frontend   → HTML / CSS / JS / TypeScript
-Framework  → Vite
-Styling    → TailwindCSS / Custom CSS
-Deploy     → Cloudflare Pages
-⚙️ Quick Setup
+✨ Features
+⚡ Fast downloads
+🎯 Simple UI
+📱 Works on all devices
+🌐 Easy to deploy
+🛠️ Tech
+HTML • CSS • JavaScript / TypeScript • Vite
 
-# Install dependencies
-npm install
+🌍 Live
 
-# Start dev server
-npm run dev
-🚀 Production Build
-npm run build
+🔗 https://your-live-site-link.com
 
-Output will be generated in:
+⚠️ Note
 
-/dist
-🌍 Deploy in 60 Seconds
-🔹 Cloudflare Pages
-Build Command: npm run build
-Build Output: dist
-🧩 Project Structure
-src/
- ├── utils/
- ├── components/
- ├── App.tsx
- ├── main.tsx
- └── styles/
+For educational use only.
 
-public/
-index.html
-
-configs/
-package.json
-vite.config.ts
-tsconfig.json
-
-⚠️ Disclaimer
-
-This project is created for educational purposes only.
-
-Downloading copyrighted content may violate platform policies.
-The developer is not responsible for misuse.
-🤝 Contributing
-
-Pull requests are welcome. For major changes:
-
-1. Fork the repo
-2. Create your feature branch
-3. Commit changes
-4. Push to branch
-5. Open PR
-📊 Repo Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight" /> </p>
-💎 Support
-
-If you like this project:
-
-⭐ Star the repo
-🍴 Fork it
-📢 Share it
 
 👨‍💻 Author
 
-Bhav
-🚀 Developer | Builder | Creator
-
-🧾 License
-
-This project is licensed under the MIT License
-
-🔥 Final Note
-
-“Speed is power. Simplicity is elegance. StreamSnap is both.”
+Bhavya
