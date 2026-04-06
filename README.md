@@ -16,9 +16,22 @@ Paste link → Click → Download
 🛠️ Tech
 HTML • CSS • JavaScript / TypeScript • Vite
 
+🧠 Architecture Overview
+User Input (URL + Format)
+        ↓
+Frontend (React / HTML)
+        ↓
+Backend API (Node.js)
+        ↓
+yt-dlp (Download best quality)
+        ↓
+FFmpeg (Convert format)
+        ↓
+Send file to user
+
 🌍 Live
 
-🔗 https://your-live-site-link.com
+🔗 https://steramxsnap.pages.dev
 
 ⚠️ Note
 
